@@ -1,0 +1,17 @@
+[2026-04-16 07:11:43] ====== Cleanup session started ======
+[2026-04-16 07:11:43] Free space on backup volume: 10048 MB
+[2026-04-16 07:11:44] Backup destination: /home/mehak/backup/backup_2026-04-16
+[2026-04-16 07:11:44] --- Phase 1: Deleting .tmp files older than 7 days ---
+[2026-04-16 07:11:44] DELETED (tmp): /home/mehak/project/alice/reports/draft.tmp  [0K]
+[2026-04-16 07:11:44] DELETED (tmp): /home/mehak/project/charlie/temp/swap.tmp  [0K]
+[2026-04-16 07:11:44] DELETED (tmp): /home/mehak/project/bob/logs/session.tmp  [0K]
+[2026-04-16 07:11:44] --- Phase 2: Moving files older than 30 days to backup ---
+[2026-04-16 07:11:44] MOVED: /home/mehak/project/shared/archives/backup_old.zip  ->  /home/mehak/backup/backup_2026-04-16/shared/archives/backup_old.zip  [500K]
+[2026-04-16 07:11:44] MOVED: /home/mehak/project/alice/reports/q2_data.log  ->  /home/mehak/backup/backup_2026-04-16/alice/reports/q2_data.log  [1K]
+[2026-04-16 07:11:44] MOVED: /home/mehak/project/alice/reports/q1_summary.log  ->  /home/mehak/backup/backup_2026-04-16/alice/reports/q1_summary.log  [1K]
+[2026-04-16 07:11:44] MOVED: /home/mehak/project/charlie/temp/cache.zip  ->  /home/mehak/backup/backup_2026-04-16/charlie/temp/cache.zip  [200K]
+[2026-04-16 07:11:44] MOVED: /home/mehak/project/bob/logs/server.log  ->  /home/mehak/backup/backup_2026-04-16/bob/logs/server.log  [1K]
+[2026-04-16 07:11:44] --- Phase 3: Generating report ---
+[2026-04-16 07:11:44] Report written to /home/mehak/report.txt
+[2026-04-16 07:11:44] ====== Cleanup session complete ======
+[2026-04-16 07:11:44]   Moved=5 | Deleted=3 | Space=703K | Errors=0

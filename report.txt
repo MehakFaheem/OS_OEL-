@@ -1,0 +1,57 @@
+======================================== 
+
+  Backup & Cleanup Report 
+
+  Generated : 2026-04-16 07:11:44 
+
+  Backup dir: /home/mehak/backup/backup_2026-04-16 
+
+======================================== 
+
+ 
+
+SUMMARY 
+
+------- 
+
+  Files moved to backup : 5 
+
+  Temp files deleted    : 3 
+
+  Total space cleared   : .68 MB 
+
+  Permission errors     : 0 
+
+ 
+
+FILES MOVED 
+
+----------- 
+
+  /home/mehak/backup/backup_2026-04-16/shared/archives/backup_old.zip 
+
+  /home/mehak/backup/backup_2026-04-16/alice/reports/q2_data.log 
+
+  /home/mehak/backup/backup_2026-04-16/alice/reports/q1_summary.log 
+
+  /home/mehak/backup/backup_2026-04-16/charlie/temp/cache.zip 
+
+  /home/mehak/backup/backup_2026-04-16/bob/logs/server.log 
+
+ 
+
+REMAINING IN PROJECT (recent files kept) 
+
+---------------------------------------- 
+
+  /home/mehak/project/alice/reports/q3_current.log 
+
+  /home/mehak/project/charlie/temp/recent.tmp 
+
+  /home/mehak/project/bob/logs/today.log 
+
+ 
+
+======================================== 
+
+ 
